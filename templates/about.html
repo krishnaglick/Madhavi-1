@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+<body id="about">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">HOME</a></li>
+                <li><a href="{{ url_for('about') }}" class="selected">ABOUT MADHAVI</a></li>
+                <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
+                <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+                <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
+                <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
+                <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+            </ul>
+        </nav>
+            </header>
+    <div class="wall">
+        <h1>About Madhavi</h1>
+        <img class="profile-photo" src="https://s3.amazonaws.com/media.sidengo.com/uploads/section_image/filepicker/94rj4kAR0ioWJAyou8PQ_me1.jpg">
+        <p>In 2007 I gave birth to my second child, went through hypnotherapy training and found out my husband (ex-husband now) had not only fooled around with another women, but had failed to use protection. By the end of that year my life was in turmoil and I was on an emotional roller coaster trying to keep my sanity while taking care of my 1 year old son and 3 year old daughter. I had never imagined that I would be put through such a difficult task to heal while trying to maintain my peace of mind. I took everything that I had learned in my spiritual practice and used the skills I learned during my hypnotherapy training and began to apply them practically for my own healing and spiritual growth. </p>
+        <p>One of the most profound things happened during this time of transition and upheaval, I found my peace of mind. It didn't come from expressing all my hurt and anger outwardly towards the source of my pain, nor did it come from suppressing and ignoring my emotions. It came through burning in the fire of my emotions and thoughts. Sitting with myself, breathing and going deep into prayer. During those intense healing sessions, I would allow all of my hurt, negative thoughts, anger, rage, tears, etc. to burst forth and ignite. I would allow myself to experience the storm in all it's glory using these techniques and I found that everytime I practiced this, I felt better. Not only did I feel better, I felt blissful! </p>
+        <p>After I completed my hypnotherapy training, I began to offer trade to practitioners of various healing arts to get feedback and experience with my techniques. To my surprise (well I wasn't too surprised!) their feedback was filled with gratitude and support. I continued my practice with individual and group sessions  in South and North Central Florida, such as Casa Ma (Gainesville, FL), The Center for Personal Growth (Winter Haven, FL), Trio Yoga Studios (Miami, FL), Merry Springs Healing Center (Gainesville FL) and The Ayurvedic Health Retreat (Alachua, FL). </p>
+        <p>After 9 years of practice I have seen hundreds of people receive so much relief from individual and group breathwork sessions. Breathwork has given relief to clients who have sufferered abuse, physical and emotional trauma, physical pain from diseases, stress, anxiety, loss of a loved one, and more. Every client who leaves a session feels relief and is rejuvenated. I am honored to practice such a healing art for this long with so many satisfied customers. </p>
+        <p>I hope that you too join our team of "Breathers" and relax, release and rejuvenate!</p>
+
+    <p>Thank you from the bottom of my heart, </p>
+
+    <p>Madhavi Glick</p>
+    </div>
+</body>
+{% endblock %}

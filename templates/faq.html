@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+<body id="faq">
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">HOME</a></li>
+                    <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
+                    <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
+                    <li><a href="{{ url_for('faq') }}" class="selected">FAQ</a></li>
+                    <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
+                    <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
+                    <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="wall">
+        <h1>FAQ</h1>
+        <img class="profile-photo" src="http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qc3dhbi5qcGcqNGI5M2VjYjRiZjNlMGQzODNmNDdmNGE4N2JlZDYwM2U" alt="Swan">
+        <p>There are lots of styles and school of Breathwork, I have modified my technique so even if you have done breathwork before,
+            your experience in a private session or group will be different that what you've done before.
+            Below is a brief decription of what breathwork is and answers to my most commonly asked questions.</p>
+        <ol id="mylist">
+            <li>What is Breathwork?</li>
+
+        <p>Breathwork is a self-healing therapy that can treat a variety of physical, mental, as well as emotional problems. This can be done by oxygenating the body through regulated breathing techniques. Once the body is oxygenated the nervous system will clean itself out. During this time many subtle and physical stresses will be released and relieved. Depending on the condition many things can be experienced. On the bodily level there can be pain relief, toxin release, higher energy levels, increased appetite, better sleep, and overall relaxation. On the mental level there will be clarity, euphoria, a feeling of fortitude, increased creativity, a better ability to cope with problems and a quieter mind to make easier decisions. On the emotional level there will be a release of crippling emotions such as trauma, depression, grief, frustration, resentment, anger etc. Everyone leaves a breathwork session feeling good and in an uplifted mood. I have been practicing for over 8 years and have not received any negative feedback. My clients have been satisfied knowing that I am confidential and provide a safe environment for the therapy. I look forward to sharing this process and helping create better healthier lives.</p>
+
+            <li>What does Breathwork feel like?</li>
+
+        <p>The first 15 minutes of a session is mostly just getting the hang of breathing properly. It can feel like the longest 15 minutes of your life though! Most people experience their mind telling them, 'I can't do this,' 'It's not working,' 'I want to stop,' or variant of such things. This is the 'critical' part of the mind resisting. After about 15 minutes, the therapy begins and over the course of the next 45 minutes the experience varies from mild and peaceful to full cathartic emotional release. What make someone have a mild experience and another fully intense is still a mystery to me. Every session is different and everytime you do one will be different depending on what you need during that time.</p>
+
+            <li>What are the side effects of Breathwork?</li>
+
+        <p>Bliss! No, seriously! BUT in order to move into a state of bliss, sometimes (not always) we must go through the storm. I like to tell clients to compare their sessions to a thunderstorm. First you can see the clouds (emotions) forming and slowly moving towards you. Then as the storm arrives there's rain (tears), thunder (vocal release), and lightning (physical release). Then once the storm passes, what happens? Sunshine and rainbows! Sometimes we have to allow those 'bad' feelings to release and it's not always comfortable. But once they pass through the mind and body and are released, one will feel rejuvenated, relaxed and BLISSFUL! (oh and you might be really hungry too)</p>
+
+            <li>Why do Breathwork with Madhavi?</li>
+
+        <p>Don't take my word for it! Here is a description from Maurice Loeb, microbiologist and owner of Vital Detox Retreats. "Madhavi Glick specializes in emotional detoxification and holistic health. She looks at the whole body and how our mind and emotions are affecting it. Her approach to emotional realease is based on Clinical Hypnotherapy and Transpersonal Breathwork which addresses the mind, body & spirit connection. During her sessions clients experience profound emotional breathroughs, release of toxic thoughs and feelings as well as a deep sense of joy and relaxation. Most clients have never felt such a deep sense of joy and comfort."</p>
+            </ol>
+    </div>
+
+</body>
+{% endblock %}

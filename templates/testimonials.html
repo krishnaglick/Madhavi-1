@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<body id="testwall">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">HOME</a></li>
+                <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
+                <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
+                <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+                <li><a href="{{ url_for('testimonials') }}" class="selected">TESTIMONIALS</a></li>
+                <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
+                <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+            </ul>
+        </nav>
+            </header>
+    <div class="wall">
+        <h1>Testimonials</h1>
+        <img class="profile-photo" src="http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qZ3JvdXAuanBnKjRmMDVlMjhmYmY4ZDE1MjM2ZDFlM2VmOTY0NDQzMzVm" alt="Kids playing">
+        <p>"There is no one better, smarter, or more loving to represent this therapeutic art than
+            Madhavi." <strong>Mukti Michael Buck, The Vedic Conservatory</strong></p>
+        <p>"Madhavi has such an empowered, grounded, yet playful & light presence. I immediately felt comfortable with her as my guide into such an intimate and internal place. It is obvious that she has done so much personal work on herself that she is fully available to facilitate others. She can give practical experiential advice on any questions you may have because she is committed to this art of healing through breath. She is very personal in sharing her own successes, challenges and struggles. Which immediately creates a safe place for me to do the same. I would highly recommend this work to anyone who is serious about healing and living an outstanding and present life." <strong>Syama Masla, Stanton Street Yoga (NY)</strong></p>
+        <p>“I can not stop thinking of my experience with Madhavi. Our work together surpassed my expectations. I really did not know how profound and powerful this would be in my life. What a wonderful gift...to teach someone how they can heal emotional and physical ailments with nothing more than the will and the breath! Thank you so much * This session has changed my life forever...It made me connect to my higher self, and invoked a purpose in me like I have never felt before! “ <strong>Kali Stinson, Yoga Teacher, Bodyworker, Artist</strong></p>
+        <p>“I enjoyed my breathwork experience with Madhavi at the Miami Shakti house Bhakti retreat. I believe it was a great way to get ride of bad trapped emotions. I was amazed to see the changes in me physically and mentally in the days following our session. I feel that my session with her may have saved me in many ways. Thank you for the experience!” - <strong>Adi Lila Samanich, Health Coach, Bodyworker</strong></p>
+        <p>"Madhavi Glick specializes in emotional detoxification and holistic health. She looks at the whole body and how our mind and emotions are affecting it. Her approach to emotional release is based on Clinical Hypnotherapy and Transpersonal Breathwork which addresses the mind, body & spirit connection. During her sessions clients experience profound emotional breakthroughs, release of toxic thoughts and feelings as well as a deep sense of joy and relaxation. Most clients have never felt such a deep sense of joy and comfort." <strong>Maurice Loeb, Vital Detox Retreats</strong></p>
+        <p>"I had a great time at the Bhakti Retreat with Madhavi Glick and I learned a ton of new information, I feel the change in my spiritual, mental, physical and emotional being...I feel great, lost 7 pounds and I see things differently now. The Breathwork is amazing and so powerful that everyone should be experiencing it to feel the great  changes that can happen to your whole body (mental, physical, spiritual and emotional). Thank you for all your help, I hope to see you soon. Keep doing what you do!" <strong>Mary Arenas, Miami Fl</strong></p>
+        <p>"Madhavi and her work as a facilitator is nurturing, supportive and calming. She takes time to create a safe space and clarify any concerns. I left feeling lighter and full of light, ease and peace." <strong>Ananga-Manjari Baur, Joy Filled Parenting</strong></p>
+        <p>"My experience having sessions with Madhavi and Breathwork is that she is intuitive, insightful, diverse, supportive, and effectively assists and guides me to shift to the state of consciousness I want to be in." <strong>Edward Leonforte, Business owner and Entrepreneur</strong></p>
+    </div>
+</body>
+{% endblock %}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}Flask Basics{% endblock %}</title>
+				<link rel="stylesheet" href="/static/normalize.css">
+            <link rel="stylesheet" href="/static/styles.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        {% block content %}{% endblock %}
+        {% block scripts %}{% endblock %}
+        <footer>
+            <a href="https://www.youtube.com" target="_blank"><img src="http://www.championsg.com/includes/images/icon-youtube.png" class="social-icon"></a>
+            <a href="https://www.facebook.com/MadhaviGlick/" target="_blank"><img src="http://www.championsg.com/includes/images/icon-facebook2.png" class="social-icon"></a>
+        </footer>
+    </body>
+</html>

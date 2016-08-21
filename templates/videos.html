@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">HOME</a></li>
+                    <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
+                    <li><a href="{{ url_for('videos') }}" class="selected">VIDEOS</a></li>
+                    <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+                    <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
+                    <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
+                    <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="video-wall">
+            <h1>Videos</h1>
+<iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/MqBUUkc56lU?list=PLXE-iP7AFjUbFGm6PqmzikfpqTs5CxLG1" frameborder="0" allowfullscreen></iframe>
+        </div>
+{% endblock %}

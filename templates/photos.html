@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">HOME</a></li>
+                    <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
+                    <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
+                    <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+                    <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
+                    <li><a href="{{ url_for('photos') }}" class="selected">PHOTOS</a></li>
+                    <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+<div id="photo-wall">
+
+    <iframe src="http://albumizr.com/a/ZIMa" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
+</div>
+{% endblock %}

@@ -1,0 +1,268 @@
+body {
+  background: url(http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qc3Vuc2V0LTExMjczNzVfOTYwXzcyMC5qcGcqNTFlZDUzMTgyN2JmNWNiNDc5Mzc5M2Q0ODhhNTM0Yjc);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#faq {
+  background: url(http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qb2NlYW4tODQ2MDg0Xzk2MF83MjAuanBnKjQyNWVlMjhmNjE0ZmE5OTgyOTM4YmQ3NzJkZmY1YjJl);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#testwall {
+  background: url(http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qYmVhY2gtMTEyOTA4Nl85NjBfNzIwLmpwZypiNDA1NmYzZGEyZTkyODc5MThkMjljZmIwOTgwYjdjMQ);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background: url(http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qc3VtbWVyLTE0NTgxMjlfOTYwXzcyMC5qcGcqMDk3ZmYzOWJjMTMyNjc1MmY3Nzg3NzU1ZDhhYTJlNTU);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+/***************
+PAGE: HOME
+****************/
+
+
+#home {
+    max-width: 940px;
+    clear: both;
+    margin: 0 auto;
+    padding: 0 5%;
+    text-align: center;
+    margin-top: 8.5%;
+}
+
+
+/***************
+PAGE: ABOUT, ETC
+****************/
+
+
+.wall {
+    max-width: 940px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    clear: both;
+    margin: 0 auto -10px;
+    padding: 0 5%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: white;
+    padding-top: 1%;
+
+}
+
+.profile-photo {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 30px;
+}
+
+#video {
+    padding-bottom: 5%;
+}
+
+
+
+/***************
+PAGE: FAQ
+****************/
+
+
+#mylist {
+    text-align: left;
+}
+
+
+
+/***************
+PAGE: CONTACT
+****************/
+
+
+#contact {
+    max-width: 940px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    clear: both;
+    margin: 0 auto -60px;
+    padding: 0 5%;
+    text-align: center;
+    margin-top: 4%;
+    padding-top: 1%;
+    background-color: transparent;
+}
+
+#contact p, #contact h2, #contact h1 {
+    color: white;
+}
+
+.form {
+    color: white;
+    padding: 2.5%;
+}
+
+input[type=text] {
+    margin: 0 0 2% 0;
+    resize: none;
+    width: 50%;
+
+}
+
+form textarea#message {
+    width: 50%;
+    resize: none;
+}
+    /***************
+    NAVIGATION
+    ****************/
+
+nav {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+
+    margin: 7px;
+}
+
+
+#video-wall {
+    max-width: 940px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    clear: both;
+    margin: 0 auto -60px;
+    padding: 0 5%;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 1%;
+    color: white;
+}
+
+
+/*.wrapper {
+    max-width: 940px;
+    clear: both;
+    margin: 0 auto;
+    padding: 0 5%;
+    background-color: white;
+    text-align: center;
+}*/
+
+ol p, p, h2  {
+    padding-bottom: 10px;
+}
+
+/***************
+PAGE: PHOTOS
+****************/
+
+
+
+#photo-wall {
+    max-width: 940px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    clear: both;
+    margin: 0 auto -60px;
+    padding: 0 5%;
+    text-align: center;
+    margin-top: 8.5%;
+    padding-top: 1%;
+
+}
+
+
+
+
+
+
+
+
+/***************
+FOOTER
+****************/
+
+
+footer {
+  font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	margin-top: 15px;
+
+}
+
+
+
+
+/***************
+COLORS
+****************/
+
+
+#home {
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover, nav a.selected {
+    color: #d2d2ac;
+}

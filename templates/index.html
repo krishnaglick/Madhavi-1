@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}" class="selected">HOME</a></li>
+            <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
+            <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
+            <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+            <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
+            <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
+            <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+        </ul>
+    </nav>
+        </header>
+<div id="home">
+    <h1>Breathwork</h1>
+    <div></div>
+    <div><h1>Relax  Release  Rejuvenate</h1></div>
+</div>
+{% endblock %}
