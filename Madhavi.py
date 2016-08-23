@@ -1,5 +1,6 @@
 from flask import (Flask, render_template, flash, redirect, url_for)
 from flask_mail import Message, Mail
+import json
 
 import forms
 
@@ -8,11 +9,14 @@ mail = Mail()
 app = Flask(__name__)
 app.secret_key = 'aopddoawijdoawijd@EW@D2doijd'
 
+with open('./local/auth.json') as data_file:
+    data = json.load(data_file)
+    app.config["MAIL_USERNAME"] = data["email"]
+    app.config["MAIL_PASSWORD"] = data["password"]
+
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
 app.config["MAIL_USE_SSL"] = True
-app.config["MAIL_USERNAME"] = 'krutonslol@gmail.com'
-app.config["MAIL_PASSWORD"] = '***'
 
 mail.init_app(app)
 
